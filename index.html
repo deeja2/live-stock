@@ -8,20 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="slider-menu">
-        <span class="fas fa-bars" id="menu-toggle"></span>
-        <nav class="side-menu">
-            <a href="old chicks">Old Chicks</a>
-            <a href="equipment.html">Equipment</a>
-            <a href="crop-production.html">Crop Production</a>
-            <a href="agricultural-equipment.html">Agricultural Equipment</a>
-            <a href="livestock.html">Livestock</a>
-            <a href="agriculture.html">Agriculture</a>
-            <a href="livestock ebook.html">Livestock Ebook</a>
-            <a href="agrochemicals.html">Agrochemicals</a>
-        </nav>
-    </div>
-    
+     
     <div class="header-begin">
         <div class="header-begin2">
             <h1>To order,whatsapp 09061896905,or call:08054192642(livestock)
@@ -30,7 +17,7 @@
                     <i class="fa-solid fa-xmark"></i>
                     </div>
         </div>
-
+        
     </div>
     <header class="header">
         <div class="header-menu">
@@ -93,8 +80,11 @@
 
     </header>
 
-    <div class="img-wrapper">
-    <div class="background-img1" style="width: 300px;" ></div>
+    <div class="wrapper-container">
+    <div class="background-img1" style >
+    <img src="https://afrimash.com/wp-content/uploads/2022/12/Afrimash-Earn-Cashback-295.04x200.88px.webp" alt=""/>
+
+    </div>
     <div class="background-img2">
         <img  class="top-img" src="https://afrimash.com/wp-content/uploads/2024/02/1050x420px-Equip-offer-5-AutoDebeakingMachine_11zon.webp" alt="">
         <div class="image1">
@@ -305,24 +295,4 @@
          </div>
 
          
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const menuToggle = document.getElementById('menu-toggle');
-        const sliderMenu = document.querySelector('.slider-menu');
-        const body = document.body;
-
-        menuToggle.addEventListener('click', function() {
-            sliderMenu.classList.toggle('active');
-            body.classList.toggle('menu-active');
-        });
-
-        // Close menu when clicking outside
-        document.addEventListener('click', function(event) {
-            if (!sliderMenu.contains(event.target) && event.target !== menuToggle) {
-                sliderMenu.classList.remove('active');
-                body.classList.remove('menu-active');
-            }
-        });
-    });
-</script>
 </html>
